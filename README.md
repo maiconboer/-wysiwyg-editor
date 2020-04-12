@@ -4,9 +4,8 @@
 
 
 - Title / Fonts / Sizes
-
-- Bold / Italic / Underline
-- strikeThrough / ForeColor / BackColor
+- Bold / Italic / Underline / strikeThrough 
+- ForeColor / BackColor
 - Justify center / Justify left / Justify right / Justify full
 - Create link / Unlink
 - Save text .doc
