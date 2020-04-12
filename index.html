@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor WYSIWYG</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1 class="title">Editor WYSIWYG</h1>
+    <div class="container">
+        <div class="toolbar">
+            <div class="select-text">
+                <select name="heading" id="list-headings">
+                    <option>Títulos</option>
+                    <option value="h1">Título1</option>
+                    <option value="h2">Título2</option>
+                    <option value="h3">Título3</option>
+                </select>
+
+                <select name="font" id="list-fonts">
+                    <option>Fontes</option>
+                    <option value="Arial">Arial</option>
+                    <option value="Calibri">Calibri</option>
+                    <option value="Comic Sans MS">Comic Sans</option>
+                    <option value="Impact">Impact</option>
+                    <option value="Trebuchet MS">Trebuchet</option>
+                    <option value="Times New Roman">Times New Roman</option>
+                </select>
+
+                <select name="size" id="list-sizes">
+                    <option>Tamanho</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                </select>
+            </div>
+
+            <div class="style-text">
+                <button id="bold">B</button>
+                <button id="italic">I</button>
+                <button id="underline">U</button>
+                <button id="strikethrough">U</button>       
+                <label class="labelForeColor" for="color">A</label>
+                <input type="color" id="foreColor" name="color" list="arcoIris" value="#000000">   
+                <label class="labelBackColor" for="backColor">A</label>
+                <input type="color" id="backColor" name="backColor" list="arcoIris" value="#000000">      
+            </div>
+
+            <div class="position-text">
+                <button id="justifyCenter"></button>
+                <button id="justifyLeft"></button>
+                <button id="justifyRight"></button>
+                <button id="justifyFull"></button>
+            </div>
+
+            <div class="tools-text">
+                <button id="insertOrderedList"></button>
+                <button id="insertUnorderedList"></button>
+                <button id="createLink"></button>
+                <button id="unlink"></button>
+            </div>
+        </div>
+        <div class="container-editor">
+            <div class="editor" contenteditable="true" autofocus></div>
+        </div>
+
+        <div class="container-download">
+            <button class="download-doc">Salvar texto</button>
+        </div>
+    </div>
+    <script type="module" src="js/script.js"></script>
+</body>
+</html>
