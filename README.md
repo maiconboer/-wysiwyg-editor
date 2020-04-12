@@ -20,3 +20,6 @@
 - Create link
 - Unlink
 - Save text .doc
+
+
+ (https://github.com/maiconboer/-wysiwyg-editor/blob/master/img/wysiwyg.png)
