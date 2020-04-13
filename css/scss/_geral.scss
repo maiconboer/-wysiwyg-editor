@@ -30,6 +30,13 @@ select {
     background-color: $cor1;
     padding: 2px 18px;
     box-sizing: border-box;
+    @include device($mobile) {
+        justify-content: center;
+    }
+}
+
+.style-text {
+    width: 180px;
 }
 
 .style-text,
@@ -38,12 +45,16 @@ select {
     border: 1px solid #aaaaaa;
     border-radius: 2px;
     padding: 2px;
+    height: 30px;
 }
 
 .select-text {
     display: flex;
     align-content: center;
     justify-content: start;
+    @include device($mobile) {
+        height: 36px;
+    }
 }
 
 .style-text button,

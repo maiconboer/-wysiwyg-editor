@@ -1,0 +1,19 @@
+// cores
+$bgcolor: #00bcd4;
+$cor1: #ffffff;
+$cor2: #cccccc;
+
+// fonte 
+$font1: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+// responsivo
+$mobile: 720px;
+
+// mixin responsivo
+@mixin device($tamanho) {
+    @if $tamanho == $mobile {
+        @media only screen and (max-width: $mobile) {
+            @content
+        }
+    }
+}
