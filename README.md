@@ -1,6 +1,6 @@
 # Editor simples - WYSIWYG
 
-### Criado com HTML/Javascript
+### Criado com HTML5/CSS3/Javascript
 
 
 - Title / Fonts / Sizes
