@@ -43,7 +43,6 @@ export default function initEditor() {
     inputColor.addEventListener('input', () => {
         let color = inputColor.value
         document.execCommand('foreColor', true, color);
-        console.log(color)
     })
 
     // background-color
@@ -51,7 +50,6 @@ export default function initEditor() {
     inputBackColor.addEventListener('input', () => {
         let background = inputBackColor.value
         document.execCommand('backColor', true, background);
-        console.log(background)
     })
 
     // download text - .doc
