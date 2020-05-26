@@ -1,4 +1,4 @@
-# Editor simples - WYSIWYG
+# Editor simples - WYSIWYG - 📃
 
 ### Criado com HTML5/CSS3/Javascript
 
