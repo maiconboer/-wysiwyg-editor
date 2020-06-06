@@ -11,4 +11,4 @@
 - Save text .doc
 
 
- ![alt text](https://github.com/maiconboer/-wysiwyg-editor/blob/master/img/wysiwyg.png)
+ ![](https://raw.githubusercontent.com/maiconboer/-wysiwyg-editor/master/assets/img/wysiwyg.png)
